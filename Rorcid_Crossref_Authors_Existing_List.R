@@ -5,30 +5,32 @@
 
 # Install and load packages -----------------------------------------------
 
-# you will need to install these packages first, using the following
-# if you've already installed them, skip this step
-#install.packages('dplyr')
-#install.packages('tibble')
-#install.packages('tidyr')
-#install.packages('purrr')
-#install.packages('readr')
-#install.packages('stringr')
-#install.packages('jsonlite')
-#install.packages('lubridate')
-#install.packages('ggplot2')
-#install.packages('httr')
-#install.packages('forcats')
-#install.packages('rorcid')
-#install.packages('usethis')
-#install.packages('anytime')
-#install.packages('janitor')
-#install.packages('glue')
-#install.packages('remotes')
-#remotes::install_github("ropensci/rcrossref")
-#install.packages('roadoi')
-#install.packages('inops')
-#install.packages("data.table")
-#devtools::install_github("ropensci/geonames")
+# you will need to install these packages first - skip if you already have them
+# change FALSE to TRUE here, or simply remove the if() block to install
+if(FALSE){
+  install.packages('dplyr')
+  install.packages('tibble')
+  install.packages('tidyr')
+  install.packages('purrr')
+  install.packages('readr')
+  install.packages('stringr')
+  install.packages('jsonlite')
+  install.packages('lubridate')
+  install.packages('ggplot2')
+  install.packages('httr')
+  install.packages('forcats')
+  install.packages('rorcid')
+  install.packages('usethis')
+  install.packages('anytime')
+  install.packages('janitor')
+  install.packages('glue')
+  install.packages('remotes')
+  remotes::install_github("ropensci/rcrossref")
+  install.packages('roadoi')
+  install.packages('inops')
+  install.packages("data.table")
+  devtools::install_github("ropensci/geonames")
+}
 
 # load the packages
 library(dplyr)
